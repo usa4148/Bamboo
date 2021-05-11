@@ -23,7 +23,7 @@ Introduction:
 
 Every year, there is a considerable number of flights that are delayed or cancelled due to a variety of reasons. These delays not only cost millions of dollars in revenue to the airline companies, but also cause inconviences to travelers. Flight delays are caused by a variety of reasons ranging from weather conditions, air traffic control, security etc. While many flight delays are unpredictable, many delays can be minimized by studying historical airline data. 
 
-The objective of the project is perform ETL (extract, trasnform, and load) the datasets. This analysis of the historic flight data will allow us to gain valuable insights and determine what weather conditions cause flight delays. To do this, we pulled two datasets. One provides flight data, and one provides severe weather data from 2015. These datasets were then merged to create a master dataset for analysis. The dataset was then analyzed to identify if the flight delays in 2015 has a correlation with the severe weather data warnings. 
+The objective of the project is perform ETL (extract, transform, and load) the datasets. This analysis of the historic flight data will allow us to gain valuable insights and determine what weather conditions cause flight delays. To do this, we pulled two datasets. One provides flight data, and one provides severe weather data from 2015. These datasets were then merged to create a master dataset for analysis. The dataset was then analyzed to identify if the flight delays in 2015 has a correlation with the severe weather data warnings. 
 
 Description of Datasets:
 
