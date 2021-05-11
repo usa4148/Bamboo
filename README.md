@@ -17,6 +17,7 @@ May 2021
  
 Data Sets: 2015 Flight Delays and Severe Weather Data
 https://www.kaggle.com/usdot/flight-delays
+https://www.ncdc.noaa.gov/swdi/csv.html 
 
 Introduction:
 
@@ -34,11 +35,6 @@ Summary information on the number of on-time, delayed, canceled, and diverted fl
 Acknowledgements
 
 The flight delay and cancellation data was collected and published by the DOT's Bureau of Transportation Statistics.
-
-Data Sets: 2015 Flight Delays and Severe Weather Data
-https://www.kaggle.com/usdot/flight-delays
-https://www.ncdc.noaa.gov/swdi/csv.html 
-
 
 airlines.csv: included the shortcode and corresponding airline name
 airports.csv: included the IATA airport code, full name, address and lat long of airports
@@ -107,14 +103,14 @@ Inside of this repository:
 
 Questions that can be answered through analysis:
 
-1) does the month of the flight have an impact on flight delays?
-2) does the day of the week impact flight delays? which day of the week has the most flight delays vs least flight delays? 
-3) does time of day impact flight delays? what time of the day has greater flight delays? 
-4) which destinations have seen the most flight delays? 
+1) Does the month of the flight have an impact on flight delays?
+2) Does the day of the week impact flight delays? which day of the week has the most flight delays vs least flight delays? 
+3) Does time of day impact flight delays? what time of the day has greater flight delays? 
+4) Which destinations have seen the most flight delays? 
 5) Which airlines have more flight delays? 
-6) causes of flight delays 
+6) Causes of flight delays 
 
-Through this analysis, we can hope to predict whether a flight will be delayed based on flight characteristics. This can help airlines, passengers, etc determine future delays and hope to minimize them.
+Throughout this analysis, we hope to predict whether a flight will be delayed based on flight characteristics. This can help airlines, passengers, etc. determine future delays and hopefully minimize them.
 
 
 
