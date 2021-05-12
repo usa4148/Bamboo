@@ -1,15 +1,12 @@
-# Bamboo
-Bamboo Group ETL Project
+### Group #6 ETL Project
+
 Project Members: Dan Cusick, Michelle Goldberg, Will Whalen, and Vaidehee Shah 
 Data Sets: 2015 Flight Delays and Severe Weather Data
-https://www.kaggle.com/usdot/flight-delays
 
 
-Purpose of the Repository
+## Purpose of the Repository: ETL Project
 
 This Repository has been made to summarize the ETL project assignment for our Data Science Bootcamp at Northwestern University
-
-ETL PROJECT
 
 Students: Dan Cusick, Michelle Goldberg, Will Whalen, and Vaidehee Shah
 
@@ -19,29 +16,32 @@ Data Sets: 2015 Flight Delays and Severe Weather Data
 https://www.kaggle.com/usdot/flight-delays
 https://www.ncdc.noaa.gov/swdi/csv.html 
 
-Introduction:
+# Introduction:
 
-Every year, there is a considerable number of flights that are delayed or cancelled due to a variety of reasons. These delays not only cost millions of dollars in revenue to the airline companies, but also cause inconviences to travelers. Flight delays are caused by a variety of reasons ranging from weather conditions, air traffic control, security etc. While many flight delays are unpredictable, many delays can be minimized by studying historical airline data. 
+Every year, there is a considerable number of flights that are delayed or cancelled due to a variety of reasons. These delays not only cost millions of dollars in revenue to the airline companies, but also cause inconveniences to travelers. Flight delays are caused by a variety of reasons ranging from weather conditions, air traffic control, security etc. While many flight delays are unpredictable, many delays can be minimized by studying historical airline data. 
 
-The objective of the project is perform ETL (extract, transform, and load) the datasets. This analysis of the historic flight data will allow us to gain valuable insights and determine what weather conditions cause flight delays. To do this, we pulled two datasets. One provides flight data, and one provides severe weather data from 2015. These datasets were then merged to create a master dataset for analysis. The dataset was then analyzed to identify if the flight delays in 2015 has a correlation with the severe weather data warnings. 
+The objective of the project is to perform ETL (extract, transform, and load) the datasets. This analysis of the historic flight data will allow us to gain valuable insights and determine what weather conditions cause flight delays. To do this, we pulled two datasets. One provides flight data, and one provides severe weather data from 2015. These datasets were then merged to create a master dataset for analysis. The dataset was then analyzed to identify if the flight delays in 2015 has a correlation with the severe weather data warnings. 
 
-Description of Datasets:
+# Description of Datasets:
 
-Context
+# Context
 
 The U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics tracks the on-time performance of domestic flights operated by large air carriers. 
 Summary information on the number of on-time, delayed, canceled, and diverted flights is published in DOT's monthly Air Travel Consumer Report and in this dataset of 2015 flight delays and cancellations.
 
-Acknowledgements
+# Acknowledgements
 
 The flight delay and cancellation data was collected and published by the DOT's Bureau of Transportation Statistics.
 
 airlines.csv: included the shortcode and corresponding airline name
+
 airports.csv: included the IATA airport code, full name, address and lat long of airports
-flights.csv: Includes flight delay information with delay time, airline shortcode and date details
+
+flights.csv: Includes flight delay information with delay time, airline short code and date details
+
 warn-2015.xlsx: includes severe data weather warnings from 2015
 
-Workflow was as follows:
+# Workflow was as follows:
 
 1) Datasets were identified
   a) 2015 Flight Data
@@ -63,7 +63,7 @@ Workflow was as follows:
 7) Datasets were joined to create a final database to perform queries
 
 
-Inside of this repository:
+# Inside of this repository:
 
 1) README.md: provides the project's objective and analysis
 2) Bamboo_db.sql
@@ -101,7 +101,7 @@ Inside of this repository:
    a)  weather data was cleaned - dropped polygon columns
  <img width="663" alt="Screen Shot 2021-05-11 at 2 46 57 PM" src="https://user-images.githubusercontent.com/79955097/117875678-11ce2e80-b268-11eb-9bd3-4fc675a8cc4e.png">
 
-Questions that can be answered through analysis:
+# Questions that can be answered through analysis:
 
 1) Does the month of the flight have an impact on flight delays?
 2) Does the day of the week impact flight delays? which day of the week has the most flight delays vs least flight delays? 
@@ -111,6 +111,7 @@ Questions that can be answered through analysis:
 6) Causes of flight delays 
 
 Throughout this analysis, we hope to predict whether a flight will be delayed based on flight characteristics. This can help airlines, passengers, etc. determine future delays and hopefully minimize them.
+
 
 
 
